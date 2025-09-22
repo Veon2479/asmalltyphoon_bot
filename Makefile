@@ -4,7 +4,7 @@ PYTHONPATH := $(abspath .)
 
 make-venv:
 	python3 -m venv ${VENV_PATH}
-	source ${VENV} && pip install -r requirements.txt
+	source ${VENV} && pip3 install -r requirements.txt
 
 
 extract-data:
